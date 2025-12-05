@@ -42,9 +42,13 @@ return fetch("https://jsonplaceholder.typicode.com/posts")
     <hr></hr>
 
     <h1>Homework2: Fetch fake data from api</h1>
-    <p>Daa from API</p>
+    <p>Data from API</p>
+    <p>List data json</p>
     <ul>
-    {/* {list.map((item) => <li key={item.id}>{item.id}-{item.title}- {item.body}</li>)} */}
+    {list.map((item) => <li key={item.id}>{item.id}-{item.title}- {item.body}</li>)}     </ul>
+    <br></br>
+    <hr></hr>
+    <p>Table data form json </p>
     <table>
       <thead>
         <tr>
@@ -62,7 +66,7 @@ return fetch("https://jsonplaceholder.typicode.com/posts")
        </tr>)}
       </tbody>
     </table>
-    </ul>
+
     </div>
   );
 }
